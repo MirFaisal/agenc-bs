@@ -1,5 +1,8 @@
 /* REMOTE FONT */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* COMMOUN STYLE */
+* {
+}
 /* NAVBAR STYLE */
 .navbar {
   position: absolute;
@@ -54,6 +57,7 @@
   padding-top: 315px;
 }
 #banner .overlay .text h1 {
+  margin: 0;
   padding-bottom: 51px;
   font-family: "Inter";
   font-style: normal;
@@ -93,4 +97,121 @@
   background: transparent;
   border: #6a4df4 1px solid;
   color: #6a4df4;
+}
+/* COUNTER STYLE */
+#counter {
+  margin: 170px 0 150px;
+}
+#counter .main-counter {
+  background: #e0fff9;
+  border-radius: 20px;
+}
+#counter .main-counter .text {
+  padding: 85px 110px 85px 50px;
+}
+#counter .main-counter .text p {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 120%;
+  color: #6a4df4;
+}
+#counter .main-counter .text h3 {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  color: #151515;
+}
+#counter .count-number {
+  padding-top: 70px;
+  padding-bottom: 125px;
+}
+#counter .count-number h2 {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #151515;
+}
+#counter .count-number p {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #737373;
+}
+/* SERVICES STYLE */
+#service {
+  margin-bottom: 100px;
+}
+#service .service-title .text p {
+  margin: 0;
+  padding-bottom: 50px;
+  width: 600px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #737373;
+}
+#service .service-title .text h2 {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #151515;
+}
+#service .main-services .items {
+  width: 424px;
+  padding: 0 49px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  transition: 0.4s;
+}
+#service .main-services .items:hover {
+  background: #531e1e;
+}
+#service .main-services .items img {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+#service .main-services .items p {
+  margin: 0;
+  width: 326px;
+  padding-bottom: 46px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #737373;
+}
+#service .main-services .items:hover p {
+  color: #ffffff;
+}
+#service .main-services .items h4 {
+  margin: 0;
+  padding-bottom: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #151515;
 }
