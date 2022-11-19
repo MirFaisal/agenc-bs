@@ -20,6 +20,10 @@
   font-size: 18px;
   line-height: 26px;
   color: #ffffff;
+  transition: 0.3s;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #6a4df4;
 }
 .btn-contact {
   font-family: "Inter";
@@ -213,3 +217,4 @@
   text-align: center;
   color: #151515;
 }
+/* RESENT WORK */
