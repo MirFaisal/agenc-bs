@@ -495,3 +495,49 @@ body {
   background: #6a4df4;
   transition: 0.4s;
 }
+/* FOOTER STYLE */
+#footer {
+  padding: 150px 0 50px;
+}
+
+#footer .main-footer ul {
+  padding: 0;
+}
+#footer .main-footer .text {
+  width: 356px;
+}
+#footer .main-footer .text img {
+  padding-bottom: 30px;
+}
+#footer .main-footer .text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b7b7b;
+}
+#footer .main-footer ul li {
+  padding-bottom: 20px;
+}
+#footer .main-footer ul li a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #7b7b7b;
+}
+#footer .main-footer ul li:first-child {
+  padding-top: 20px;
+}
+#footer .main-footer .copy-right p {
+  
+  margin: 0 auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #d0d0d0;
+}
