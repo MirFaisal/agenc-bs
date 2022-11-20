@@ -85,7 +85,7 @@ body {
   color: #ffffff;
 }
 #banner .overlay .btn {
-  margin-bottom: 40px;
+  margin-bottom: 170px;
   padding: 15px 42px;
   font-family: "Inter";
   font-style: normal;
@@ -532,7 +532,6 @@ body {
   padding-top: 20px;
 }
 #footer .main-footer .copy-right p {
-  
   margin: 0 auto;
   font-family: "Inter";
   font-style: normal;
